@@ -1,1 +1,4 @@
-.DS_STORE
+node_modules
+.tmp
+app/bower_components
+credentials.json
