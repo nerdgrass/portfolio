@@ -5,6 +5,11 @@
   font-weight: normal;
   font-style: normal; }
 
+.centered {
+  margin: 0 auto;
+  display: block;
+  position: relative; }
+
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -5063,6 +5068,41 @@ th.hide-for-touch {
 .touch th.show-for-touch {
   display: table-cell !important; }
 
+section.splash {
+  z-index: 15; }
+
+section.about {
+  z-index: 15; }
+
+section.work {
+  z-index: 10;
+  overflow: hidden; }
+
+section.contact {
+  z-index: 15; }
+
+section.footer {
+  z-index: 15; }
+
+html {
+  background: url('../images/seaport1280.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+body {
+  background: none; }
+
+section.splash, section.about, section.contact {
+  min-height: 37.5rem; }
+
+.splash {
+  background: none; }
+
+section.about, section.work, section.contact {
+  background: #443b72; }
+
 *, *:after, *::before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -5256,7 +5296,7 @@ html, body, .vs-container {
   transform: translate3d(100%, 0, 0); }
 
 .vs-sidenav div {
-  position: fixed;
+  position: absolute;
   top: 0;
   z-index: 10;
   width: 10%;
@@ -5293,16 +5333,7 @@ html, body, .vs-container {
 .vs-content .col {
   margin: 0 auto;
   text-align: justify;
-  line-height: 1.4;
-  -webkit-column-width: 30%;
-  -moz-column-width: 30%;
-  column-width: 30%;
-  -webkit-column-count: 3;
-  -moz-column-count: 3;
-  column-count: 3;
-  -webkit-column-gap: 1%;
-  -moz-column-gap: 1%;
-  column-gap: 1%; }
+  line-height: 1.4; }
 
 .vs-content p {
   margin: 0 0 20px 0;

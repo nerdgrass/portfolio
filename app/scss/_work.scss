@@ -240,7 +240,7 @@ html, body, .vs-container {
 }
 
 .vs-sidenav div {
-	position: fixed;
+	position: absolute;
 	top: 0;
 	z-index: 10;
 	width: 10%;
@@ -284,15 +284,15 @@ html, body, .vs-container {
 	margin: 0 auto;
 	text-align: justify;
 	line-height: 1.4;
-	-webkit-column-width: 30%;
-	-moz-column-width: 30%;
-	column-width: 30%;
-	-webkit-column-count: 3;
-	-moz-column-count: 3;
-	column-count: 3;
-	-webkit-column-gap: 1%;
-	-moz-column-gap: 1%;
-	column-gap: 1%;
+	// -webkit-column-width: 30%;
+	// -moz-column-width: 30%;
+	// column-width: 30%;
+	// -webkit-column-count: 3;
+	// -moz-column-count: 3;
+	// column-count: 3;
+	// -webkit-column-gap: 1%;
+	// -moz-column-gap: 1%;
+	// column-gap: 1%;
 }
 
 .vs-content p {

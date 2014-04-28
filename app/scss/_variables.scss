@@ -26,3 +26,9 @@ $beige-lighter:			#f2e8df;
     font-weight: normal;
     font-style: normal;
 }
+//Mixins & Utility Classes
+.centered {
+	margin: 0 auto;
+	display:block;
+	position: relative;
+}
