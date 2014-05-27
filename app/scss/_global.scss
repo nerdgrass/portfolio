@@ -16,3 +16,42 @@ section.contact {
 section.footer {
 	z-index:15;
 }
+
+// global styles
+.framed {
+	padding:7px;
+	background: $beige-lighter;
+	border: 1px solid $beige;
+}
+
+.work {
+	ul {
+		list-style: none;
+	}
+	.tags {
+		span {
+			display: inline-block;
+			font-weight: 300;
+			background: $purple-darkest;
+			color: $beige-light;
+			padding:.2em .5em .1em .5em;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+		}
+	}
+
+	img:not(.company-logo) {
+		@extend .framed;
+	}
+	.company-logo {
+		@extend .centered;
+	}
+}
+
+// bootstrap overrides
+p.lead {
+	color: $beige-lighter;
+	font-weight: 100;
+	font-size: 24px;
+}

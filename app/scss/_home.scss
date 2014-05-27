@@ -11,9 +11,19 @@ body {
 section.splash, section.about, section.contact { 
   min-height: emCalc(600px);
 }
-.splash {
+img.splash {
 	background:none;
+  border:0px;
+}
+section.splash {
+	min-height:90vh;
+}
+img.splash {
+	margin-top:8em;
 }
 section.about, section.work, section.contact {
 	background: $purple;
+}
+section.about {
+  padding: 4em 0px;
 }
